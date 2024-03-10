@@ -13,6 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="employees.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="employees.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
